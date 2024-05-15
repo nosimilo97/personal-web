@@ -1,0 +1,210 @@
+body {
+background-color: #FCF8C5;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1em;
+    color: brown;
+    border: 1px solid burlywood;
+    border-radius:1px ;
+    
+}
+h1 {
+    font-family:'Courier New', Courier, monospace;
+    flex: 2;
+    text-align: center;
+    font-size: 70px;
+   
+}
+.intro {
+    /*background-color: #F6C8A2;*/
+display:flex;
+padding: 1em;
+}
+ th {
+    text-align: left;
+    
+}
+td {
+    padding: 1em;
+}
+table, th, td {
+    border: 1px solid brown;
+    border-collapse: collapse;
+   
+    padding: 8px;
+}
+table {
+     width:80%  ;
+     margin-bottom: 1em;
+}
+
+
+
+
+
+.city {
+    /*background-color: #F2B27D;*/
+    padding: 1em;
+    margin: 1em;
+   
+}
+.city_content {
+    display: inline-flex;
+    
+}
+
+.paris {
+  padding-left: 3em;
+
+}
+
+.nosimilo {
+    flex: 1;
+    border-radius: 10px;
+    width: 400px;
+   height: 400px;
+}
+
+.subject-3, .subject-2, .subject-1  {
+    display: inline-flex; 
+    flex: 1;
+} 
+
+
+.historic-1, .historic-2, .historic-3 {
+    display: inline-flex;
+    flex: 1;
+}
+
+
+/*.subject-2 {
+    padding: 1em;
+    margin: 1em;
+    flex: 1;
+}
+
+
+.subject-3 {
+    padding: 1em;
+    margin: 1em;
+    flex: 1;
+}
+.subject-1 {
+    padding: 1em;
+    margin: 1em;
+    flex: 1;
+}*/
+
+/* h3 {
+    float: right;
+} */
+.subject-p {
+    
+    font-size: small;
+    overflow: auto;
+    justify-content: space-evenly;
+}
+.historic-p {
+    font-size: small;
+    overflow: auto; 
+    justify-content: space-evenly;
+   
+}
+
+.language {
+    padding: 1em;
+}
+
+
+
+/* .joburg {
+    padding: 1em;
+   
+} */
+
+h2 {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+
+.img-subject {
+    width: 250px;
+    height: 250px;
+    padding: 1em;
+    margin-right:auto;
+    
+}
+
+.historical-images{
+    width: 250px;
+    height: 250px;
+    padding: 1em;
+    margin-right:auto;
+}
+
+h3 { 
+    text-align: left;
+}
+
+
+ /* .mandela-house { */
+
+    /* background-color: #F0E219; */
+    /*padding: 1em;*/
+     /* margin: 1em; */
+    /* flex: 1; 
+ } */
+
+
+/* .Museum-Africa { */
+
+    /*background-color: #F0E219;*/
+    /*padding: 1em;*/
+    /* margin: 1em; */
+    /* flex:1;
+} */
+
+/* .apartheid-Museum {
+
+    /* background-color: #F0E219; */
+    /* padding: 1em; */
+     /* margin: 1em; */
+    /* flex:1;
+} */
+
+/* .apartheid-Museum {
+    
+    flex: 1; 
+} 
+.Museum-Africa {
+    flex: 1;
+}
+
+.mandela-house {
+    flex: 1;
+} */
+
+
+/* .place {
+    width: 300px;
+    justify-content: space-evenly;
+   flex: 1;
+    margin: 0 auto;
+} */
+
+hr {
+    color: burlywood;
+    border: 1px dotted;
+}
+
+@media (min-width:960px ) {
+    .subjects {
+    display: flex;
+    
+}
+
+.historical-places {
+    display: flex;
+
+}
+}
