@@ -14,11 +14,7 @@ h1 {
     font-size: 70px;
    
 }
-.intro {
-    /*background-color: #F6C8A2;*/
-display:flex;
-padding: 1em;
-}
+
  th {
     text-align: left;
     
@@ -47,10 +43,7 @@ table {
     margin: 1em;
    
 }
-.city_content {
-    display: inline-flex;
-    
-}
+
 
 .paris {
   padding-left: 3em;
@@ -197,6 +190,11 @@ hr {
     border: 1px dotted;
 }
 
+.intro {
+    margin-bottom: 1em;
+    padding: 1em;   
+}
+
 @media (min-width:960px ) {
     .subjects {
     display: flex;
@@ -207,4 +205,32 @@ hr {
     display: flex;
 
 }
+
+.intro {
+   
+display:flex;
+
+}   
+
+.city_content {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
 }
+
+}
+
+/* @media  (max-width: 600px) {
+    .intro {
+    
+        display: block;
+        margin: 0 auto;
+    }
+    .city-p {
+        display: block;
+        margin: 0 auto;
+    }
+
+
+} */
